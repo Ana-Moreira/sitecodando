@@ -1,0 +1,122 @@
+
+
+
+
+
+
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  body{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+   
+    
+  
+    
+  }
+  
+  
+  
+  
+  .menu{
+    width:100%;
+    height: 40px;
+   padding: 5px ;
+   background-color: #00b8d4;
+   
+  
+    
+    
+    
+
+   
+  }
+  .menu ul{
+    list-style: none;
+    
+   
+    
+  
+  }
+  .menu ul li{
+    display: inline-block;
+    
+    
+  }
+  .menu ul li a{
+    text-decoration: none;
+    color: #0c0c0c;
+    font-weight: lighter ;
+    padding: 0px 15px;
+    
+    
+  }.produtos {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  #objetivos,
+  #mulheres {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: auto;
+  }
+  
+  #display-produtos,
+  #display-produtos2,
+  #display-produtos3
+   {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: auto;
+    gap: 10%;
+    grid-row: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+
+
+  .imagem-base {
+    width: 20vw;
+    height: 40vh;
+    display: grid;
+    border-radius: 50%;
+  }
+
+  .lista-main {
+    color: #3b4f66;
+    text-align: center;
+    font-size: 20px;
+    padding: 3vh;
+  }
+
+  .produtos {
+  list-style-type: none;
+  text-align: center;
+}
+
+a {
+    text-decoration: none;
+  }
+  
+  h2 {
+    color: #00b8d4;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  #secao-produtos {
+    background-color: #f1eaea;
+    padding: 1vh;
+    width:100%;
+    
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  

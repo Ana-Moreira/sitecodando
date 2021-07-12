@@ -1,0 +1,123 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  body{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+   
+    
+  
+    
+  }
+
+form{
+    font-size: 20px;
+    background-color: #ccd8da;
+    max-width: 550px ;
+    margin: 150px auto ;
+    padding: 10px 10px 10px 10px;
+    background: #d3e8ee;
+            box-shadow: 0px 10px 36px 10px rgb(21, 21, 49);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            border-radius: 10px;
+            border: 2px solid rgba(58, 55, 53, 0.18);
+    
+}
+
+
+
+a {
+    text-decoration: none;
+    
+}
+
+h1{
+    color: #0f0f0e;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+input, textarea{
+    width: 470px;
+    padding: 10px ;
+}
+
+.enviar input{
+    background-color: rgb(156, 220, 231);
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    color: rgb(15, 10, 10);
+    cursor: pointer;
+
+}
+
+.enviar input:hover{
+    background-color: rgb(88, 190, 197);
+}
+
+textarea{
+    width: 470px;
+    height: 170px;
+    line-height: 20px;
+}   
+
+.whatsapp-link{
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+
+
+
+
+.menu{
+    
+    width:100%;
+    height: 40px;
+   padding: 5px ;
+   background-color: #00b8d4;
+   
+   
+  }
+  .menu ul{
+    list-style: none;
+   height: 10px ;
+    padding: 1px ;
+
+   
+  
+  }
+  .menu ul li{
+    display: inline-block;
+    
+    
+    
+  }
+  .menu ul li a{
+    text-decoration: none;
+    color: #0c0c0c;
+    font-weight: lighter ;
+    padding: 0px 15px;
+    
+    
+  }
+
+  #secao-produtos {
+    background-color: #f1eaea;
+    padding: 1vh;
+    width:100%;
+    
+  }
